@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<%- include('./partials/head',{url:"/css/index.css"}) %>
+<body>
+    <%- include('./partials/header') %>
+        <main>
+            <!-- Video de YouTube -->
+    <div class="iframe-container">
+        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                title="Video de YouTube"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+    </div>
+
+    <!-- Secciones de contenido -->
+    <div class="content-wrapper">
+        <!-- Quiénes Somos -->
+        <div class="section">
+            <h2>Quiénes Somos</h2>
+            <p>GABRIEL GAITAN VENGOECHEA, ESTUDIANTE DE INGENIERA EN DESARROLLO DE SOFTWARE, SEGUNDO TALLER DE DISEÑO DE APLICACIONES WEB- PAGINA ECCOMERCE</p>
+        </div>
+
+        <!-- Visión -->
+        <div class="section">
+            <h2>Visión</h2>
+            <p>PRESENTAR UN APLICATIVO DE CALIDAD QUE PUEDA LLEGAR A SER FUNCIONAL EN UN FUTURO, LOGRANDO EL OBJETIVO DE LA ASIGNATURA</p>
+        </div>
+
+        <!-- Misión -->
+        <div class="section">
+            <h2>Misión</h2>
+            <p>AMPLIAR LA INFORMACION Y CONOCIMIENTO DE MAQUETACION Y CODIFICACION DE UN APLICATIVO WEB PARA FUTURAS ENTREGAS Y PARA EL AMBITO PROFECIONAL</p>
+        </div>
+    </div>
+        </main>
+    <%- include('./partials/footer') %>
+</body>
+</html>
